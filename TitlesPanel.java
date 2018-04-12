@@ -25,6 +25,9 @@ implements ActionListener {
     private int start_angle = 0;
     private int shape;
 
+	/**
+	 * Конструктор класса TitlesPanel.
+	 */
     public TitlesPanel(int _shape) {
         this.shape = _shape;
         this.animation = new Timer(50, this);
@@ -39,6 +42,9 @@ implements ActionListener {
         }
     }
 
+    /**
+	 * Метод рисует фигуры на окне.
+	 */
     private void doDrawing(Graphics g) {
         this.is_done = false;
         this.g2d = (Graphics2D)g;

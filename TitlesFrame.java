@@ -1,12 +1,13 @@
-/*
- * Decompiled with CFR 0_123.
- */
 import java.awt.Component;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
 public class TitlesFrame
 extends JFrame {
+
+	/**
+	  * Конструктор класса TitlesFrame.
+	  */
     public TitlesFrame() {
         this.initUI();
     }
@@ -19,6 +20,9 @@ extends JFrame {
         this.setLocationRelativeTo(null);
     }
 
+	/**
+	 * Метод с которого программа начинает работать.
+	 */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
 
